@@ -1,6 +1,6 @@
 ## :man_technologist: Welcome!
 
-## TakeTwo: Movie Database Application for Ratings and Review.
+## TakeTwo: Movie Database Website for Ratings and Reviews.
 
 
 
