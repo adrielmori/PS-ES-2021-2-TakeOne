@@ -1,22 +1,16 @@
 ## :man_technologist: Welcome!
 
-## TakeTwo: Movie Database Application for Ratings and review.
+## TakeTwo: Movie Database Application for Ratings and Review.
 
 
 
-:right_anger_bubble: Application of a film database website, oriented to the requirements of the final work of the discipline of Software Project at UFG.
+:right_anger_bubble: Application system website for movie rating and review, oriented to the requirements of the final work of the discipline of Software Project at UFG.
 
-## I'm Adriel Mori!
+## Hello, We´re!
 
- 
 
-:computer: I'm Student Software Engineer at UFG and member of the LCC Project in machine learning research!
+:computer: Adriel L. V. Mori and Igor Moreira Pádua
 
-:house_with_garden: I’m from Brazil.
-
-:books: I’m currently learning everything.
-
-:outbox_tray: 2022 Goals: create a new projects and find a job.
 
 ## About us
 
