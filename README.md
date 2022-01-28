@@ -9,7 +9,11 @@
 ## Hello, We´re!
 
 
-:computer: Adriel L. V. Mori and Igor Moreira Pádua
+:computer: <b><i>Team</i></b>: Adriel L. V. Mori and Igor Moreira Pádua
+
+:man_teacher: <b><i>Advisor</i></b>: Rubuns Castro
+
+:technologist: <b><i>Taugtht at the UFG.</i></b>
 
 
 ## About us
@@ -24,5 +28,3 @@
 - Thanks for visiting.
 
 - Enjoy it!! o/
- 
- 
