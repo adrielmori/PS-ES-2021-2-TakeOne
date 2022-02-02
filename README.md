@@ -11,7 +11,7 @@
 
 :computer: <b><i>Team</i></b>: Adriel L. V. Mori, Igor Moreira Pádua and Bruna do Espirito
 
-:man_teacher: <b><i>Advisor</i></b>: Rubens Castro
+:man_teacher: <b><i>Advisor</i></b>: Rubens de Castro
 
 :technologist: <b><i>Taugtht at the UFG.</i></b>
 
