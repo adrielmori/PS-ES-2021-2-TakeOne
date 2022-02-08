@@ -1,3 +1,4 @@
-Talvez o GitHub não abra o arquivo pdf no seu layout por conta do tamanho. Para isso,tente fazer o Download ou, acesse diretamente o framework na ferramenta do figma pelo link:
+Talvez o GitHub não abra o arquivo pdf no seu layout por conta do tamanho. Para isso,tente fazer o Download ou,
+acesse diretamente o framework na ferramenta do figma pelo link:
 
 https://www.figma.com/file/uAR91DIwYi9H1VZyYLf8qj/TakeOne_FrameWork_nao_funcinal?node-id=0%3A1
