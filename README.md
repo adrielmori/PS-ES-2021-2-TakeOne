@@ -1,6 +1,6 @@
-## :man_technologist: Welcome
+## :man_technologist: Welcome!
 
-## <b><i>PS-ES-2021-2-TakeOne!</i></b>
+## PS-ES-2021-2-TakeOne
 
 ## Project <i>TakeTwo: Movie Database Website for Ratings and Reviews.</i>
 
