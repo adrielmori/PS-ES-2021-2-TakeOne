@@ -15,6 +15,8 @@
 
 :technologist: <b><i>Taugtht at the UFG.</i></b>
 
+:date: <b><i>Início do Projeto</i></b>: 29 de jan. de 2022.
+
 
 ## About us
   
