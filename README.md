@@ -2,7 +2,7 @@
 
 ## PS-ES-2021-2-TakeOne
 
-## Project <i>TakeTwo: Movie Database Website for Ratings and Reviews.</i>
+## Project <i>TakeOne: Movie Database Website for Ratings and Reviews.</i>
 
 
 
