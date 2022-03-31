@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { ErrorMessage, Formik, Form, Field } from "formik";
 import { ReactComponent as Logo } from "assets/img/LogoLogin.svg";
 import "./styles.css";
+import {validateEmail} from 'utils/validate';
 import axios from "axios";
 
 function Login() {
@@ -13,6 +14,11 @@ function Login() {
 
   const handleSubmit = (e: any) => {
     e.preventDefault();
+
+    if (!validateEmail(email)) {
+      alert("Invalid e-mail!")
+      return;
+    }
 
     console.log("submit", { email });
     login!(email);

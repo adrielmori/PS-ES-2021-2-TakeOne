@@ -18,7 +18,7 @@ function logout() {
   }
 
   const handleLogout = () => {
-    var r = window.confirm("Você tem certeza que quer sair?");
+    var r = window.confirm("You are sure you want to logout!");
     if (r == true) {
       localStorage.removeItem("user")
       refreshPage()
@@ -41,7 +41,7 @@ function logout() {
         <div className="desmoviecontact-logout">
           <button onClick={handleLogout} className="dsmovie-btn-logout">
             <Logout className="desmoviecontact-logout-image" />
-            Sair
+            Logout
           </button>
         </div>
        

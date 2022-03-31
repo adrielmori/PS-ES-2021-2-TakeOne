@@ -38,7 +38,7 @@ function FormCard({ movieId }: Props) {
 
 
     if (!validateEmail(email)) {
-      const r = window.confirm("Você não está logado!\nQuer logar?")
+      const r = window.confirm("You are not logged in!\nWant to log?")
       if (r == true) {
         navigate('/login')
       }
