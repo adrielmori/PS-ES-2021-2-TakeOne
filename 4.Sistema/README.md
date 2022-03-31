@@ -1,0 +1,1 @@
+#:woman: Attributions about applied technology
