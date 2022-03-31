@@ -1,6 +1,6 @@
 /* Componentes para confugurar as rotas */
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import { useContext, useState } from "react";
+import { BrowserRouter, Routes, Route} from "react-router-dom";
+import { useContext} from "react";
 
 import Navbar from "components/Navbar"; /* Componente React navBar: função do JS  */
 import Listing from "pages/Listing"; /* Página de listagem de filmes */

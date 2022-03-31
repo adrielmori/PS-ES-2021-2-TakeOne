@@ -1,10 +1,10 @@
-import { useState } from "react";
+
 import "./styles.css";
 
 
 function FormComment() {
 
-    const [comment, setComment] = useState(" ");
+    /*const [comment, setComment] = useState(" ");*/
 
     return(
     <div className="form-group dsmovie-form-container-comment">
