@@ -8,6 +8,7 @@ function refreshPage() {
   window.location.reload();
 }
 
+
 function logout() {
 
   var user = "Login";
@@ -17,7 +18,8 @@ function logout() {
   }
 
   const handleLogout = () => {
-    if (localStorage.getItem('user') != null) {
+    var r = window.confirm("Você tem certeza que quer sair?");
+    if (r == true) {
       localStorage.removeItem("user")
       refreshPage()
     }
@@ -38,7 +40,7 @@ function logout() {
         {localStorage.getItem("user") != null &&
         <div className="desmoviecontact-logout">
           <button onClick={handleLogout} className="dsmovie-btn-logout">
-            <Logout className="desmoviecontact-logout-image"/>
+            <Logout className="desmoviecontact-logout-image" />
             Sair
           </button>
         </div>

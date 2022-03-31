@@ -36,7 +36,12 @@ function FormCard({ movieId }: Props) {
     }
     const score = (event.target as any).score.value;
 
+
     if (!validateEmail(email)) {
+      const r = window.confirm("Você não está logado!\nQuer logar?")
+      if (r == true) {
+        navigate('/login')
+      }
       return;
     }
 
