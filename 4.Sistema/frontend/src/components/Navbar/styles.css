@@ -1,0 +1,59 @@
+/* Arquivo para estilizar o frontend */
+/* Dados da estilização retirados da ferramenta Figma */
+
+header {
+  /* direcionando o estilo no cabeçalho*/
+  background-color: var(--color-primary);
+  height: 60px;
+  display: flex;
+  align-items: center; /* alinha verticalmente ao centro */
+}
+
+.dsmovie-nav-content {
+  display: flex; /* para ficar os elementos um ao lado do outro*/
+  justify-content: space-between; /* espaçamento entre caracteres */
+  align-items: center;
+  color: #fff;
+}
+
+.dsmovie-nav-content h1 {
+  /* para manipular o "DSMovie" idereça o filho "h1"*/
+  margin: 0;
+  font-weight: 700; /* Fonte em negrito */
+  font-size: 24px;
+}
+
+.dsmovie-contact-container {
+  display: flex;
+  margin: 0;
+  align-items: center;
+}
+
+.dsmovie-contact-link {
+  margin: 0 0 0 10px; /* Possui margem somente pela esquerda*/
+  font-size: 12px;
+}
+
+.dsmovie-btn-logout {
+  background-color: var(--color-primary);
+  color: #fff;
+  border: 0;
+  border-radius: 8px 8px 8px 8px;
+  font-size: 15px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.desmoviecontact-logout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.desmoviecontact-logout-image {
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(147deg) brightness(100%) contrast(103%);
+  height: 13px;
+  margin: 0 6px 0 10px; /* Possui margem somente pela esquerda*/
+}
