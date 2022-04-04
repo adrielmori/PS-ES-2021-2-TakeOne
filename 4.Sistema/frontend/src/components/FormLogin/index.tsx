@@ -1,14 +1,12 @@
-import { useEffect, useState, useContext } from "react";
+import { useState, useContext } from "react";
 import { AuthContext } from "components/Auth/";
 import { Link } from "react-router-dom";
-import { ErrorMessage, Formik, Form, Field } from "formik";
 import { ReactComponent as Logo } from "assets/img/LogoLogin.svg";
 import "./styles.css";
 import {validateEmail} from 'utils/validate';
-import axios from "axios";
 
 function Login() {
-  const { authenticated, login } = useContext(AuthContext);
+  const { login } = useContext(AuthContext);
 
   const [email, setEmail] = useState(" ");
 

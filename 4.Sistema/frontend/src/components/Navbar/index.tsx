@@ -19,7 +19,7 @@ function logout() {
 
   const handleLogout = () => {
     var r = window.confirm("You are sure you want to logout!");
-    if (r == true) {
+    if (r === true) {
       localStorage.removeItem("user")
       refreshPage()
     }
