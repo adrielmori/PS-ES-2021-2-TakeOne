@@ -35,6 +35,7 @@ function FormCard({ movieId }: Props) {
       email = localStorage.getItem("user")?.slice(1, tam - 1)
     }
     const score = (event.target as any).score.value;
+    const comment = (event.target as any).comment.value;
 
 
     if (!validateEmail(email)) {
@@ -53,7 +54,8 @@ function FormCard({ movieId }: Props) {
       data: {
         email: email,
         movieId: movieId,
-        score: score
+        score: score,
+        comment: comment
       }
     }
 
@@ -87,6 +89,10 @@ function FormCard({ movieId }: Props) {
               <option>4</option>
               <option>5</option>
             </select>
+          </div>
+          <div className="form-group dsmovie-form-group">
+            <label htmlFor="comment">Comment</label>
+            <input className="form-control" id="comment"></input>
           </div>
           <div className="dsmovie-form-btn-container">
             <button type="submit" className="btn btn-primary dsmovie-btn">
