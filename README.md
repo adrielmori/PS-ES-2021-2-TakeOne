@@ -11,7 +11,7 @@
 ## Hello, We´re!
 
 
-:computer: <b><i>Team</i></b>: Adriel L. V. Mori, Igor Moreira Pádua and Bruna do Espirito
+:computer: <b><i>Team 4</i></b>: Adriel L. V. Mori, Igor Moreira Pádua and Bruna do Espirito
 
 :man_teacher: <b><i>Advisor</i></b>: Rubens de Castro
 
