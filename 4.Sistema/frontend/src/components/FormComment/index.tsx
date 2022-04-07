@@ -6,7 +6,7 @@ import "./styles.css";
 
 type Props = {
   movieId: string;
-  userId: number;
+  userId: string;
 };
 
 function FormComment({ movieId, userId }: Props) {
@@ -23,8 +23,8 @@ function FormComment({ movieId, userId }: Props) {
 
   return (
     <div className="dsmovie-form-container-comment">
-      <div className= "dsmovie-form-user-comment">{user?.email}</div>
-      {user?.comment}
+      <div className="dsmovie-form-comment">User: {user?.email}....... Score: {user?.score}</div>
+      <div >{user?.comment}</div>
     </div>
   );
 }

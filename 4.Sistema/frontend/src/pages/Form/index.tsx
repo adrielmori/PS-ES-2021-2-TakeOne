@@ -14,8 +14,7 @@ function Form() {
 
       <div className="dsmovie-form-container-comment-userComments">
         <div className="dsmovie-form-comment-intro">   Commets:</div>
-        <FormComment movieId={`${params.movieId}`} userId={1} />
-        <FormComment movieId={`${params.movieId}`} userId={2} />
+        <FormComment movieId={`${params.movieId}`} userId={`${params.movieId}`} />
       </div>
     </>
   );

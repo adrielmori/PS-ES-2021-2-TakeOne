@@ -13,7 +13,7 @@ export type Movie = {
 export type Score ={
     movieId: number;
     email: string;
-    scoreUser: number;
+    score: number;
     comment: string;
 }
 

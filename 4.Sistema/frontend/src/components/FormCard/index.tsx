@@ -90,7 +90,7 @@ function FormCard({ movieId }: Props) {
               <option>5</option>
             </select>
           </div>
-          <div className="form-group dsmovie-form-group">
+          <div className="dsmovie-form-group">
             <label htmlFor="comment">Comment</label>
             <input className="form-control" id="comment"></input>
           </div>
