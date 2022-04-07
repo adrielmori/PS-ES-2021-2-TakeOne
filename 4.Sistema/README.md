@@ -23,6 +23,7 @@
   <li>Rate movies between a score of 1 to 5 - R4</li>
   <li>Watch a movie trailer - R5</li>
   <li>View the average score and number of ratings for movies - R6</li>
+  <li>Add comment - R7</li>
 </ul>
 
 
