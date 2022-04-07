@@ -64,3 +64,8 @@
   align-items: center;
   justify-content: center;
 }
+
+.dsmovie-form-user-comment {
+  display: flex;
+  justify-content: left;
+}

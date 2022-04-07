@@ -1,5 +1,7 @@
 package com.mori.takeOne.services;
 
+import java.util.Optional;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -8,6 +10,7 @@ import com.mori.takeOne.dto.MovieDTO;
 import com.mori.takeOne.dto.ScoreDTO;
 import com.mori.takeOne.entities.Movie;
 import com.mori.takeOne.entities.Score;
+import com.mori.takeOne.entities.ScorePK;
 import com.mori.takeOne.entities.User;
 import com.mori.takeOne.repositories.MovieRepository;
 import com.mori.takeOne.repositories.ScoreRepository;
@@ -24,12 +27,21 @@ public class ScoreService {
 
 	@Autowired
 	private ScoreRepository scoreRepository;
+	
+	@Transactional(readOnly = true) // somente para Leitura
+	public ScoreDTO getScore(ScorePK id) {// busca individual de componentes
+		Score result = scoreRepository.findById(id).get();// Deve haver verificação
+		Movie movie = movieRepository.findById(id.getMovie().getId()).get();
+		User user = userRepository.findByEmail(id.getUser().getEmail());
+		ScoreDTO dto = new ScoreDTO(result, movie, user);
+		return dto;
+	}
 
 	@Transactional
 	public MovieDTO saveScore(ScoreDTO dto) {// Lógica para salver o score no banco de dados
 
 		User user = userRepository.findByEmail(dto.getEmail());
-
+		
 		if (user == null) {
 			user = new User();
 			user.setEmail(dto.getEmail());

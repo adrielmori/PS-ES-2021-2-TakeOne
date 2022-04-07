@@ -25,7 +25,7 @@
   <li>View the average score and number of ratings for movies - R6</li>
 </ul>
 
-# :run: Instructions to run Pipeline
+# :runner Instructions to run Pipeline
 
 ## Git clone
 
@@ -33,4 +33,4 @@
 
 ## Update dependency/package managers for the application (Yarn/NPM)
 
-## :success: Ready!!
+## :success Ready!!
