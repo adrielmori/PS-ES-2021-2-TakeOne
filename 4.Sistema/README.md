@@ -25,8 +25,6 @@
   <li>View the average score and number of ratings for movies - R6</li>
 </ul>
 
-# :runner Instructions to run Pipeline
-
 # 🏃 Instructions to run Pipeline
 
 ## Git clone
