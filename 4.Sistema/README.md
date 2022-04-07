@@ -24,3 +24,13 @@
   <li>Watch a movie trailer - R5</li>
   <li>View the average score and number of ratings for movies - R6</li>
 </ul>
+
+# 🏃 Instructions to run Pipeline
+
+## Git clone
+
+## Import Maven Project to your desktop
+
+## Update dependency/package managers for the application (Yarn/NPM)
+
+## :success Ready!!
