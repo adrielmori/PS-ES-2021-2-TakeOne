@@ -34,8 +34,11 @@ git clone https://github.com/adrielmori/PS-ES-2021-2-TakeOne.git
 In Spring Tool Suite 4 goes to File-> Import...-> Moven-> Existing Maven projects Choose or directory that you cloned from git and press Finish
 
 ## Update dependency/package managers for the application (Yarn/NPM)
+
+```
 npm i -g react-scripts
 npm install react-scripts --save
-To run from an **npm start**
+npm start
+```
 
 ## :success Ready!!
