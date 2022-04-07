@@ -31,6 +31,9 @@
 git clone https://github.com/adrielmori/PS-ES-2021-2-TakeOne.git
 
 ## Import Maven Project to your desktop
+
+<div> img="https://user-images.githubusercontent.com/82418789/162283848-def611f5-6767-48bf-8f47-dc0664a736dd.png"</did>
+
 In Spring Tool Suite 4 goes to File-> Import...-> Moven-> Existing Maven projects Choose or directory that you cloned from git and press Finish
 
 ## Update dependency/package managers for the application (Yarn/NPM)
